@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    background: #474bff;
+background: -webkit-linear-gradient(284deg, #474bff 0%, #bc48ff 100%);
+background: linear-gradient(284deg, #474bff 0%, #bc48ff 100%);
+
+}
+
+.left{
+    margin: 0 0 0 42px;
+}
+nav ul 
+{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 5px 9px 9px 0;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: larger;
+
+}
+nav ul li a:hover{
+    text-decoration: overline;
+}
+
+.right{
+    margin: 0 65px 0 0;
+}
